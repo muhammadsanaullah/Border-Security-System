@@ -15,6 +15,7 @@ This Linux based execution can also be run on Windows using various emulators an
   2. Load the source directory with the libraries, .geojson files and source code files
   3. Run "make" in the terminal to compile the project
   4. Write the appropriate command and obtain the results.
+
 An example is:
 The source directory is opened in the terminal, "make" is run to compile the project then "./bss -c AZE -t border" is entered to the command terminal to find the border length of Azerbaijan or "./bss -c BGR -t cable" is sent to the command terminal to find the sensing cable length for Bulgaria or just "./bss" is sent to the command terminal to find the border lengths of all countries. The outputs are obtained in JSON formats as follows respectively: 
 
