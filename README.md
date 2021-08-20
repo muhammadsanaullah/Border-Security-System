@@ -6,3 +6,5 @@ In an imaginary world, every country wants to deploy a border security system (B
 The program then calculates border of countries and the length of the sensing cable in JSON format.
 
 The application titled "bss" is written in C++ using MS Visual Studio Editor and run in main console in Linux OS. Third party libraries titled geojson.hh and gason.h are used and edited as per need, as well as Makefile based in Linux which helps in running and executing program builds. Command arguments -c and -t are used with iso_a3 codes, parsed through the command terminal to the program to run with all files, libraries and third party tools stored in the same directory.
+An example is:
+"bss -c AZE -t border" is entered to the command terminal to find the border length of Azerbaijan, "bss -c BGR -t cable" is sent to the command terminal to find the sensing cable length for Bulgaria and "bss" is sent to the command terminal to find the border lengths of all countries
