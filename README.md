@@ -1,4 +1,4 @@
-## Border-Security-System
+# Border-Security-System
 A GEOJSON parsing C++ program that helps calculate border perimeters and cable lengths measured between the main controller in the capital and the closest border, using geometrical data stored in GEOJSON files for capitals and countries.
 
 
@@ -7,7 +7,7 @@ The program then calculates border of countries and the length of the sensing ca
 
 The application titled "bss" is written in C++ using MS Visual Studio and run the terminal in Linux OS. Third party libraries "lib_geojson" and "gason" are used and edited as per need, as well as Makefile based in Linux which helps in running and executing the program by helping in establishing a working dependency chain. Command arguments -c and -t are used with iso_a3 codes, parsed through the command terminal to the program to run with all files, libraries and third party tools stored in the same directory.
 
-# Compilation & Running of Program
+### Compilation & Running of Program
 With the help of the "gason" libraries, GEOJSON file contents are parsed. Some modifications are made to the header and source files for "lib_geojson" for our specific project which help realize the file contents as JSON objects and makes it easy to access their elements. Functions implemented in C++ are called accordinly for distance calculation, perimeter calculation and sensing cable length calculation. 
 Makefile works as the main compiler and is put to use by running "make" in the terminal after loading the source directory. Then the appropriate command is given but it is important to note that "./bss" would be used instead of "bss", and " | jq" can be added after the command to format and indent the output to make it look nicer.
 This Linux based execution can also be run on Windows using various emulators and virtual machines e.g. VMWare. The steps to run a sample of the program would be:
